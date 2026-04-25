@@ -1,0 +1,7 @@
+[2026-04-25T01:46:06Z] === AST ITERATION 1 START | repo=pygments/pygments sha=f5eb039c ===
+[2026-04-25T01:46:06Z] [iter=1] PHASE START: ast repo=pygments/pygments sha=f5eb039c
+[2026-04-25T01:46:06Z] [iter=1] Building AST aggregate chunks
+[2026-04-25T01:54:35Z] [iter=1] AST chunks built count=2 triples=6986433
+[2026-04-25T01:54:35Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/f5eb039c39446562e140dd64b9b0c5743e933df7/.complete
+[2026-04-25T01:54:35Z] [iter=1] PHASE END: ast elapsed_s=509 elapsed_min=8.5
+[2026-04-25T01:54:35Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
