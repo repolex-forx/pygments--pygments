@@ -1,0 +1,98 @@
+[2026-09-08T19:02:06Z] === ENRICH ITERATION 1 START | repo=pygments/pygments sha=9162c079 ===
+[2026-09-08T19:02:06Z] [iter=1] PHASE START: enrich repo=pygments/pygments sha=9162c079 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/9162c079-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/9162c079eac12bbf17b187013ab0c46efb7eb43f.nq.gz
+[2026-09-08T19:02:09Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-08T19:03:54Z] [iter=1] AST store loaded triples=6920503 load_secs=102 mem_mb=1007 MB
+[2026-09-08T19:03:54Z] [iter=1] Step 2: Finding LSP targets mem_mb=1007 MB
+[2026-09-08T19:04:07Z] [iter=1] LSP targets found call_sites=14834 imports=1003 extends=596 implements=2 secs=14
+[2026-09-08T19:04:20Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1007 MB
+[2026-09-08T19:04:52Z] [iter=1] Position index built positions=538676 nodes_with_types=707529 secs=33 mem_mb=1383 MB
+[2026-09-08T19:04:52Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1383 MB already_completed_types=[] already_completed_files=0
+[2026-09-08T19:04:52Z] [iter=1] Resolving target type target_type=call_site count=14834
+[2026-09-08T19:04:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.8 files_done=0 resolved=0 errors=0 current=pygments/lexers/ruby.py
+[2026-09-08T19:08:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=1 resolved=5 errors=104 current=pygments/styles/rainbow_dash.py
+[2026-09-08T19:11:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.7 files_done=3 resolved=37 errors=176 current=pygments/lexers/graph.py
+[2026-09-08T19:12:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.8 files_done=4 resolved=37 errors=202 current=pygments/lexers/textfmts.py
+[2026-09-08T19:15:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.4 files_done=5 resolved=41 errors=268 current=pygments/lexers/configs.py
+[2026-09-08T19:20:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.8 files_done=6 resolved=63 errors=405 current=pygments/formatters/terminal256.py
+[2026-09-08T19:23:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.4 files_done=7 resolved=82 errors=471 current=pygments/cmdline.py
+[2026-09-08T19:28:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.3 files_done=8 resolved=165 errors=595 current=pygments/lexers/erlang.py
+[2026-09-08T19:31:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.4 files_done=9 resolved=174 errors=674 current=pygments/lexers/csound.py
+[2026-09-08T19:34:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.3 files_done=10 resolved=176 errors=749 current=pygments/lexers/_cocoa_builtins.py
+[2026-09-08T19:35:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.7 files_done=12 resolved=207 errors=785 current=pygments/lexers/jvm.py
+[2026-09-08T19:44:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.5 files_done=13 resolved=211 errors=1008 current=scripts/count_token_references.py
+[2026-09-08T19:46:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.2 files_done=14 resolved=241 errors=1050 current=pygments/lexer.py
+[2026-09-08T19:48:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.0 files_done=15 resolved=353 errors=1088 current=pygments/lexers/kuin.py
+[2026-09-08T19:52:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.4 files_done=16 resolved=353 errors=1199 current=pygments/lexers/tcl.py
+[2026-09-08T19:53:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.3 files_done=17 resolved=353 errors=1223 current=pygments/lexers/ride.py
+[2026-09-08T20:00:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=58.4 files_done=19 resolved=354 errors=1401 current=pygments/style.py
+[2026-09-08T20:11:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=69.0 files_done=21 resolved=376 errors=1670 current=pygments/lexers/robotframework.py
+[2026-09-08T20:15:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.4 files_done=22 resolved=394 errors=1782 current=pygments/lexers/idl.py
+[2026-09-08T20:16:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=74.6 files_done=24 resolved=394 errors=1812 current=pygments/lexers/haskell.py
+[2026-09-08T20:19:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=77.7 files_done=25 resolved=404 errors=1890 current=pygments/formatters/latex.py
+[2026-09-08T20:23:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=81.0 files_done=26 resolved=423 errors=1974 current=tests/test_cmdline.py
+[2026-09-08T20:26:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.0 files_done=27 resolved=448 errors=2050 current=pygments/lexers/textedit.py
+[2026-09-08T20:26:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.8 files_done=28 resolved=454 errors=2071 current=pygments/lexers/markup.py
+[2026-09-08T20:38:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=96.4 files_done=29 resolved=499 errors=2361 current=pygments/formatter.py
+[2026-09-08T20:46:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=104.7 files_done=31 resolved=505 errors=2570 current=pygments/lexers/webmisc.py
+[2026-09-08T20:58:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=116.0 files_done=32 resolved=508 errors=2856 current=scripts/gen_mapfiles.py
+[2026-09-08T20:59:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=117.5 files_done=34 resolved=529 errors=2894 current=pygments/lexers/objective.py
+[2026-09-08T21:01:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=119.8 files_done=35 resolved=533 errors=2953 current=pygments/lexers/ml.py
+[2026-09-08T21:04:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=122.2 files_done=36 resolved=549 errors=3014 current=pygments/lexers/testing.py
+[2026-09-08T21:05:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=123.3 files_done=37 resolved=549 errors=3041 current=tests/test_basic_api.py
+[2026-09-08T21:08:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=126.5 files_done=38 resolved=602 errors=3122 current=pygments/lexers/css.py
+[2026-09-08T21:11:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=129.4 files_done=39 resolved=608 errors=3195 current=pygments/lexers/yara.py
+[2026-09-08T21:15:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=133.6 files_done=41 resolved=627 errors=3303 current=pygments/lexers/matlab.py
+[2026-09-08T21:17:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=135.4 files_done=42 resolved=641 errors=3348 current=pygments/formatters/html.py
+[2026-09-08T21:19:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=137.6 files_done=43 resolved=722 errors=3401 current=tests/test_terminal_formatter.py
+[2026-09-08T21:20:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=138.4 files_done=44 resolved=732 errors=3423 current=pygments/lexers/modula2.py
+[2026-09-08T21:22:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=140.1 files_done=45 resolved=767 errors=3465 current=pygments/lexers/_sourcemod_builtins.py
+[2026-09-08T21:23:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=140.9 files_done=46 resolved=776 errors=3487 current=pygments/lexers/solidity.py
+[2026-09-08T21:25:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=143.2 files_done=48 resolved=803 errors=3544 current=pygments/lexers/resource.py
+[2026-09-08T21:34:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=152.6 files_done=50 resolved=812 errors=3783 current=pygments/lexers/modeling.py
+[2026-09-08T21:35:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=153.3 files_done=51 resolved=818 errors=3802 current=tests/test_mysql.py
+[2026-09-08T21:36:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=154.5 files_done=52 resolved=852 errors=3832 current=pygments/lexers/factor.py
+[2026-09-08T21:39:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=157.0 files_done=53 resolved=852 errors=3895 current=pygments/lexers/go.py
+[2026-09-08T21:41:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=159.3 files_done=55 resolved=856 errors=3954 current=pygments/lexers/_php_builtins.py
+[2026-09-08T21:42:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=160.1 files_done=56 resolved=872 errors=3972 current=pygments/lexers/fantom.py
+[2026-09-08T21:44:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=162.5 files_done=57 resolved=875 errors=4035 current=tests/test_sql.py
+[2026-09-08T21:45:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=163.5 files_done=58 resolved=882 errors=4058 current=pygments/lexers/basic.py
+[2026-09-08T21:48:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=166.1 files_done=59 resolved=888 errors=4125 current=pygments/lexers/graphics.py
+[2026-09-08T21:50:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=168.8 files_done=60 resolved=891 errors=4193 current=pygments/lexers/templates.py
+[2026-09-08T22:00:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=178.6 files_done=61 resolved=1019 errors=4441 current=pygments/lexers/rebol.py
+[2026-09-08T22:02:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=179.9 files_done=62 resolved=1049 errors=4474 current=tests/test_html_formatter_linenos_elements.py
+[2026-09-08T22:02:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=180.5 files_done=63 resolved=1057 errors=4487 current=pygments/token.py
+[2026-09-08T22:04:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=182.7 files_done=65 resolved=1071 errors=4545 current=pygments/lexers/julia.py
+[2026-09-08T22:06:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=184.8 files_done=66 resolved=1074 errors=4597 current=pygments/lexers/crystal.py
+[2026-09-08T22:08:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=186.4 files_done=67 resolved=1098 errors=4639 current=pygments/lexers/meson.py
+[2026-09-08T22:09:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=187.8 files_done=69 resolved=1127 errors=4674 current=pygments/lexers/monte.py
+[2026-09-08T22:13:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=191.8 files_done=71 resolved=1159 errors=4775 current=pygments/formatters/__init__.py
+[2026-09-08T22:14:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=192.6 files_done=72 resolved=1173 errors=4795 current=scripts/debug_lexer.py
+[2026-09-08T22:16:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=194.0 files_done=73 resolved=1229 errors=4832 current=pygments/lexers/slash.py
+[2026-09-08T22:16:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=194.9 files_done=74 resolved=1232 errors=4853 current=pygments/lexers/installers.py
+[2026-09-08T22:18:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=196.2 files_done=75 resolved=1232 errors=4888 current=pygments/lexers/html.py
+[2026-09-08T22:21:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=199.8 files_done=76 resolved=1233 errors=4980 current=tests/test_coffeescript.py
+[2026-09-08T22:22:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=200.4 files_done=78 resolved=1252 errors=4993 current=pygments/lexers/__init__.py
+[2026-09-08T22:24:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=202.3 files_done=79 resolved=1286 errors=5041 current=pygments/lexers/praat.py
+[2026-09-08T22:26:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=204.1 files_done=80 resolved=1286 errors=5087 current=pygments/lexers/_postgres_builtins.py
+[2026-09-08T22:27:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=205.3 files_done=81 resolved=1316 errors=5118 current=pygments/formatters/svg.py
+[2026-09-08T22:29:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=206.9 files_done=82 resolved=1317 errors=5160 current=pygments/lexers/felix.py
+[2026-09-08T22:30:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=208.3 files_done=83 resolved=1317 errors=5195 current=pygments/formatters/groff.py
+[2026-09-08T22:31:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=209.7 files_done=84 resolved=1325 errors=5230 current=pygments/lexers/hdl.py
+[2026-09-08T22:33:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=211.2 files_done=85 resolved=1325 errors=5269 current=tests/test_func.py
+[2026-09-08T22:34:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=212.0 files_done=87 resolved=1340 errors=5289 current=pygments/lexers/perl.py
+[2026-09-08T22:36:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=214.2 files_done=88 resolved=1361 errors=5346 current=pygments/lexers/_lua_builtins.py
+[2026-09-08T22:37:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=215.5 files_done=89 resolved=1378 errors=5379 current=scripts/vim2pygments.py
+[2026-09-08T22:40:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=218.1 files_done=90 resolved=1402 errors=5446 current=pygments/lexers/data.py
+[2026-09-08T22:41:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=219.8 files_done=91 resolved=1433 errors=5484 current=pygments/lexers/chapel.py
+[2026-09-08T22:43:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=221.0 files_done=93 resolved=1445 errors=5515 current=pygments/lexers/sql.py
+[2026-09-08T22:48:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=226.3 files_done=94 resolved=1477 errors=5647 current=pygments/lexers/typoscript.py
+[2026-09-08T22:49:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=227.3 files_done=95 resolved=1477 errors=5672 current=pygments/lexers/shell.py
+[2026-09-08T22:55:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=233.4 files_done=96 resolved=1491 errors=5827 current=scripts/utility.py
+[2026-09-08T22:56:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=234.2 files_done=98 resolved=1518 errors=5847 current=pygments/lexers/gdscript.py
+[2026-09-08T22:57:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=235.4 files_done=99 resolved=1522 errors=5878 current=pygments/lexers/func.py
+[2026-09-08T22:58:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=235.9 files_done=100 resolved=1522 errors=5892 current=pygments/lexers/tnt.py
+[2026-09-08T23:00:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=238.6 files_done=101 resolved=1542 errors=5961 current=pygments/lexers/minecraft.py
+[2026-09-08T23:02:10Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.1 files_completed=102 new_files_this_iter=102 mem_mb=1424 MB
+[2026-09-08T23:02:10Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/9162c079eac12bbf17b187013ab0c46efb7eb43f.nq.gz triples=42502
+[2026-09-08T23:02:10Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-09-08T23:02:10Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14403 elapsed_min=240.1 files_completed=102
