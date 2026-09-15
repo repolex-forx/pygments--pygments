@@ -311,8 +311,9 @@
     {
       "@id": "https://repolex.ai/r/pygments/pygments/commit/f442d0e155a062c4a851cfb344056d8abbf8d865",
       "git:hexsha": "f442d0e155a062c4a851cfb344056d8abbf8d865",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "2.2.0"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "2.2.0",
+      "repolex:parsedAt": "2026-09-15T12:13:34.534723+00:00"
     },
     {
       "@id": "https://repolex.ai/r/pygments/pygments/commit/708197d82827ba2d5ca78bcbb653c7102ce86dcd",
